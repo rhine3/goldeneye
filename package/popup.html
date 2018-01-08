@@ -1,0 +1,103 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Goldeneye</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet"> <!--Google font-->
+    <style type="text/css">
+      body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        width: 300px;
+        white-space: wrap;
+        margin: 20px;
+      }
+
+      #header-wrap {
+        display: inline-block;
+      }
+      
+      #header-image,
+      #header-text {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      
+      img {
+        display: block;
+        float: left;
+      }
+      
+      h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 33px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+      
+      h2 {
+        font-family: 'Roboto Slab', serif;
+        font-weight: normal;
+        font-size: 15px;
+        margin-top: 0px;
+      }
+      
+      #entrybox, #button {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+      }
+      
+      /*
+      #go-button {
+        background-color: #ffde00;
+        color: black;
+        border: solid;
+        border-color: #ffde00;
+      }
+      */
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+    -->
+    
+      <script src="popupmodify.js"></script>
+      <script src="formsubmit.js"></script>
+      <script src="conflicts.js"></script>
+      <script src="dictionaries.js"></script>
+      <script src="parser.js"></script>
+  </head>
+
+  <body>
+      
+    <div id="header-wrap">
+      <div id="header-image">
+        <img src="images/cayenneBAGObanner.png" style="float: left; width: 100px; margin-right:10px">
+      </div>
+      <div id="header-text">
+        <h1>Goldeneye</h1>
+        <h2>An alpha code dictionary</h2>
+      </div>
+    </div>
+    <div id="formholder">
+      <form id="myform" style="margin-top: 10px; margin-bottom: 10px">
+        <input type="text" id="entrybox" placeholder="Enter code or species name..." autofocus="autofocus" style="padding: 3px 5px; width: 247px">
+        <input type="submit" id="button" value="Go!" style="padding: 3px 5px">
+      </form>
+      <!--
+      <form id="alpha-input" action="form"></form>
+      <input id="go-button" type="button" value="Go!">
+      -->
+    </div>
+    <div id="results">
+      <!--<p>Can insert an initial note here</p>-->
+    </div>
+  </body>
+</html>

@@ -1,10 +1,10 @@
 /*
-currently this is set up to identify conflicts between
-codes of species where both species are included in both
+currently this dictionary is set up for identification of conflicts 
+between codes of species where both species are included in both
 the BBL and IBP dictionaries. 
 
 however, it could also be used to identify species not currently
-in the IBP dictionary--maybe for a later date.
+in the IBP dictionary--something to be implemented at a later date
 */
 
 var bbl_species_keys = {

@@ -3,8 +3,6 @@ function clearHtml(source){
   while (source.firstChild){
     source.removeChild(source.firstChild);
   }
-  
-  return;
 }
 
 
@@ -15,11 +13,16 @@ function modifyPopup(submission){
   Calls clearHtml() to remove any previous results in the popup's "results" div.
   Formats and displays the results from parser.js functions in the popup.
   */
-  
+
+  // don't even search if there are less than 4 chars provided.
+  // there would be too many matches anyways when searching species names...
+  if (submission.length < 4) return;
+
   var code, output, temp;
-  
+
+
   //for putative codes
-  if (submission.length == 4) {
+  if (submission.length === 4) {
     code = submission.toUpperCase();
     output = identifyCode(code); 
   }
@@ -51,8 +54,11 @@ function modifyPopup(submission){
   clearHtml(result);
   
   //output=false if user input not found in dictionary
-  if (!output) {
-    if (submission.length == 4){
+  if (output === true) {
+    line1 = 'More than one result found. Keep typing!';
+  }
+  else if (!output) {
+    if (submission.length === 4){
       line1 = 'Code "'+code+'" not found.';
     }
     else{

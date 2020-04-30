@@ -19,5 +19,6 @@ function main(event) {
 
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("myform").addEventListener("submit", main);
-    
+    document.getElementById("entrybox").addEventListener("keyup", main);
+
 });

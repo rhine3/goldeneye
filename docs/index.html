@@ -20,25 +20,36 @@
 $(document).ready(
   /*Search 2nd column of every row and display matching rows*/
   function(){
+  var timer;
   $("#tableSearch").on("keyup", function() {
+    /* Start counting so we don't search slowly */
+    clearTimeout(timer);
+    var ms = 100; // milliseconds to wait
+
+    /* Search using lowercase */
     var value = $(this).val().toLowerCase();
-    /* Hide table if the query is empty*/
-    if (value.length < 4){
-      $("#alphaTable").show();
-    } else {
-      /* Search the table */
-      $("#alphaTable tr td:nth-child(2)").filter(function() {
-        $(this).parent().toggle($(this).text().toLowerCase().indexOf(value) > -1)
-      });
 
-      /* Add stripe formatting */
-      $("tr:visible").each(function (index) {
-          $(this).css("background-color", !!(index & 1)? "rgba(0,0,0,.05)" : "rgba(0,0,0,0)");
-      });
+    timer = setTimeout(function() {
+      if (value.length < 4){
+        /* Hide table if the query is empty*/
+        $("#alphaTable").hide();
+      } else {
+        /* Make sure the table is visible */
+        $("#alphaTable").show();
 
-      /* Show the resulting table */
-      $("#alphaTable").show();
-    }
+        /* Search the table */
+        $("#alphaTable tr td:nth-child(2)").filter(function() {
+          $(this).parent().toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+
+        /* Add stripe formatting */
+        $("tr:visible").each(function (index) {
+            $(this).css("background-color", !!(index & 1)? "rgba(0,0,0,.05)" : "rgba(0,0,0,0)");
+        });
+
+      }
+
+    }, ms)
   });
 
   /* For loading external html file into div class includedTable */

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- google font -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet"> <!--Google font-->
+
+<!--jquery for table searching-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--bootstrap for design-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+<meta name="robots" content="index, follow" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="library/bootstrap-tagsinput.css">
+<link rel="stylesheet" href="library/app.css">
+<script>
+$(document).ready(
+  /*Search 2nd column of every row and display matching rows*/
+  function(){
+  $("#tableSearch").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    /* Hide table if the query is empty*/
+    if (value.length < 4){
+      $("#alphaTable").show();
+    } else {
+      /* Search the table */
+      $("#alphaTable tr td:nth-child(2)").filter(function() {
+        $(this).parent().toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+
+      /* Add stripe formatting */
+      $("tr:visible").each(function (index) {
+          $(this).css("background-color", !!(index & 1)? "rgba(0,0,0,.05)" : "rgba(0,0,0,0)");
+      });
+
+      /* Show the resulting table */
+      $("#alphaTable").show();
+    }
+  });
+
+  /* For loading external html file into div class includedTable */
+  $(function(){
+    $("#includedTable").load("resources/search_table.html");
+  });
+});
+
+
+</script>
+<style>
+
+#header-wrap {
+  display: inline-block;
+}
+
+#header-image,
+#header-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+img {
+  display: block;
+  float: left;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 33px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+#entrybox, #button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+
+table {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  border: 0px;
+  width: 100%;
+  table-layout: fixed;
+  white-space: wrap;=
+}
+
+/* Hide search column */
+table#alphaTable td:nth-child(2) {
+   display: none;
+   width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+  border: 0px;
+}
+
+/* Hide all rows when page is first opened. */
+tr {
+  display: none;
+  border: 5px;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<div class="container">
+
+  <!-- Header text and image -->
+  <div id="header-wrap">
+    <div id="header-image">
+      <img src="resources/cayenneBAGObanner.png" style="float: left; width: 100px; margin-right:10px">
+    </div>
+    <div id="header-text">
+      <h1>Goldeneye</h1>
+      <h2>An alpha code dictionary</h2>
+    </div>
+  </div>
+
+<!-- Form search bar -->
+<input class="form-control mb-4" id="tableSearch" type="text"
+  placeholder="Search for a code or species">
+
+  <!-- Table to include -->
+  <div id="includedTable"></div>
+</div>
+</html>

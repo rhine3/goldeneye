@@ -24,7 +24,7 @@ $(document).ready(
   $("#tableSearch").on("keyup", function() {
     /* Start counting so we don't search slowly */
     clearTimeout(timer);
-    var ms = 100; // milliseconds to wait
+    var ms = 200; // milliseconds to wait
 
     /* Search using lowercase */
     var value = $(this).val().toLowerCase();

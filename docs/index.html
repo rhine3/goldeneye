@@ -51,28 +51,34 @@ $(document).ready(
 </script>
 <style>
 
+
+/* Overall placement */
+.container{
+  float: left;
+  margin-left:20px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+/* Header design */
 #header-wrap {
   display: inline-block;
 }
-
 #header-image,
 #header-text {
   display: inline-block;
   vertical-align: middle;
 }
-
 img {
   display: block;
   float: left;
 }
-
 h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 33px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
-
 h2 {
   font-family: 'Roboto Slab', serif;
   font-weight: normal;
@@ -80,39 +86,41 @@ h2 {
   margin-top: 0px;
 }
 
-#entrybox, #button {
+/* Search bar design */
+#tableSearch {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
+  margin-top: 10px;
 }
 
 
+/* Table design */
 table {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
-  font-family: arial, sans-serif;
   border: 0px;
   width: 100%;
   table-layout: fixed;
-  white-space: wrap;=
+  white-space: wrap;
 }
-
-/* Hide search column */
-table#alphaTable td:nth-child(2) {
-   display: none;
-   width: 100%;
-}
-
 td, th {
   text-align: left;
   padding: 8px;
   border: 0px;
 }
 
+
+/* Hide search column */
+table#alphaTable td:nth-child(2) {
+   display: none;
+   width: 100%;
+}
 /* Hide all rows when page is first opened. */
 tr {
   display: none;
   border: 5px;
 }
+
 
 </style>
 </head>

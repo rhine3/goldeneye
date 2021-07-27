@@ -61,6 +61,64 @@
   </script>
 </head>
 
+<style>
+  /* Hide search column */
+  table#alphaTable td:nth-child(2) {
+     display: none;
+     width: 100%;
+  }
+  /* Hide all rows when page is first opened. */
+  tr {
+    display: none;
+    border: 5px;
+  }
+
+
+    /* Search bar design */
+    #tableSearch {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1rem;
+    }
+
+    /* Table design */
+    table {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1rem;
+      border: 0px;
+      width: 100%;
+      table-layout: fixed;
+      white-space: wrap;
+    }
+    td, th {
+      text-align: left;
+      padding: 8px;
+      border: 0px;
+    }
+
+
+  h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+  }
+  h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+  .container{
+    padding:4;
+  }
+
+  @media (min-width: 768px) {
+     .container { max-width: 50em; }
+     .image-fluid {max-width: 8em;}
+  }
+
+
+</style>
+
 <body>
 
 

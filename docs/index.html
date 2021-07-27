@@ -59,78 +59,18 @@
     });
 
   </script>
-  <style>
-
-
-  /* Overall placeent */
-  .container{
-    float: left;
-    margin-left:20px;
-    margin-top: 20px;
-    width: 400px;
-  }
-
-  /* Header design */
-  #header-wrap {
-    display: inline-block;
-  }
-  #header-image,
-  #header-text {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  img {
-    display: block;
-    float: left;
-  }
-
-  /* Search bar design */
-  #tableSearch {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    margin-top: 10px;
-  }
-
-
-  /* Table design */
-  table {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    border: 0px;
-    width: 100%;
-    table-layout: fixed;
-    white-space: wrap;
-  }
-  td, th {
-    text-align: left;
-    padding: 8px;
-    border: 0px;
-  }
-
-
-  /* Hide search column */
-  table#alphaTable td:nth-child(2) {
-     display: none;
-     width: 100%;
-  }
-  /* Hide all rows when page is first opened. */
-  tr {
-    display: none;
-    border: 5px;
-  }
-
-
-  </style>
 </head>
 
 <body>
 
 
-<div class="container-sm">
-  <div class="row d-flex align-items-center">
+<div class="container ml-5">
+  <!--Classes add top, right, left, and bottom spacing-->
+  <div class="row mt-5 mr-5 ml-5 mb-3 align-items-center">
+
   <!-- Header text and image -->
-    <div class="col-auto">
-        <img src="resources/cayenneBAGObanner.png" style="float: left; width: 100px; margin-right:10px">
+    <div class="col-3 align-items-center">
+        <img src="resources/cayenneBAGObanner.png" class="img-fluid">
     </div>
     <div class="col align-items-center">
       <h1 class="fs-1">Goldeneye</h1>
@@ -138,9 +78,9 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row ml-3 mr-4" style="width: 100%;">
     <!-- Form search bar -->
-    <input class="form-control mb-4" id="tableSearch" type="text"
+    <input class="form-control mb-2" id="tableSearch" type="text"
       placeholder="Search for a code or species">
 
       <!-- Table to include -->

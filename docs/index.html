@@ -19,22 +19,28 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
   <script>
+  // Global variables
+  var tr, div;
 
+  window.onload = function(){
+    $("#table_div").load(
+      "resources/search_table.html",
+      function() {
+        console.log("loaded")
+        var table = document.getElementById("alphaTable");
+        tr = table.getElementsByTagName("tr");
+        div = document.getElementById("table_div");
+      }
+    );
+  };
 
   function do_search(){
-    var input, filter, table, tr, td, i, txtValue;
+    var input, filter, td, i, txtValue;
     /*Lowercase the user input*/
     input = document.getElementById("input_box");
     filter = input.value.toLowerCase();
-
-    /*Get the rows of the table*/
-    table = document.getElementById("alphaTable");
-    tr = table.getElementsByTagName("tr");
-    div = document.getElementById("table_div")
-
-
     /* Hide all table rows not matching search query */
-    if(input.value.length < 3){
+    if (input.value.length < 3){
       // Don't search for less than 3 characters
       // Table is hidden by default
       div.classList.add("hidden")
@@ -65,11 +71,6 @@
   }
 
 
-
-  $(function () {
-    $("#table_div").load("resources/search_table.html");
-
-  });
 
 
   </script>

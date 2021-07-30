@@ -30,6 +30,8 @@
     img {
       display: block;
       float: left;
+      width: 100px;
+      margin-right:10px;
     }
 
     h1 {
@@ -62,11 +64,10 @@
 
     #result_table {
       width: 100%;
-      margin-top: 5px;
     }
 
     .result_td {
-      padding: 3px;
+      padding: 5px;
     }
     </style>
 
@@ -95,7 +96,7 @@
 
     <div id="header-wrap">
       <div id="header-image">
-        <img src="resources/cayenneBAGObanner.png" style="float: left; width: 100px; margin-right:10px">
+        <img src="resources/cayenneBAGObanner.png">
       </div>
       <div id="header-text">
         <h1>Goldeneye</h1>
@@ -105,11 +106,10 @@
     <div id="formholder">
         <!-- Form search bar -->
         <input type="text" id="input_box" placeholder="Search for a code or species" autofocus='autofocus'>
-        <div>
-          <table id="result_table">
-          </table>
-        </div>
-      </div>
+    </div>
+    <div id = "resultholder">
+      <table id="result_table">
+      </table>
     </div>
   </body>
 </html>

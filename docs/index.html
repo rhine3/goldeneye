@@ -75,11 +75,6 @@
 </head>
 
 <style>
-  /* Hide search column */
-  #result_table td:nth-child(2) {
-     display: none;
-     width: 100%;
-  }
   /* Search bar design */
   #input_box {
     font-family: 'Open Sans', sans-serif;
@@ -143,7 +138,7 @@
   <div class="row mx-auto" style="width: 100%;">
     <!-- Form search bar -->
     <input class="form-control mb-2" id="input_box" type="text"
-      placeholder="Search for a code or species" onkeyup="search_and_display()">
+      placeholder="Search for a code or species" onkeyup="search_and_display()" autofocus='autofocus'>
 
       <div>
         <table id="result_table">

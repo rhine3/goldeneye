@@ -35,17 +35,14 @@
   };
 
   function clear_table(){
-    var table = document.getElementById("result_table")
-
     //Remove any old elements of table
+    var table = document.getElementById("result_table")
     table.innerHTML = '';
-
     return table;
   };
 
   function build_table(search, response){
     var table = clear_table();
-
     var cells = [];
     for (var idx in response){
       if (response[idx].substring(0,4).toLowerCase() === search){
@@ -58,9 +55,8 @@
 
     for (var idx in response){
       var row, cell;
-      row = table.insertRow(idx);
-
       // Add cell and populate with text
+      row = table.insertRow(idx);
       cell = row.insertCell(0);
       cell.innerHTML = response[idx];
 
@@ -69,12 +65,13 @@
     };
   };
 
-  async function get_info(user_input){
+  async function search_and_display(user_input){
     var search_string = document.getElementById("input_box").value.toLowerCase();
-    if (search_string.length == 0){
+    if (search_string.length < 2){
       clear_table();
     } else {
-      let response = await search(search_string);
+      const response = await search(search_string);
+
       build_table(search_string, response);
     };
   };
@@ -150,7 +147,7 @@
   <div class="row mx-auto" style="width: 100%;">
     <!-- Form search bar -->
     <input class="form-control mb-2" id="input_box" type="text"
-      placeholder="Search for a code or species" onkeyup="get_info()">
+      placeholder="Search for a code or species" onkeyup="search_and_display()">
 
       <div>
         <table id="result_table">

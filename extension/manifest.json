@@ -5,17 +5,17 @@
   "short_name": "Goldeneye",
   "author": "Extension by Tessa Rhinehart. Icon and banner image by Cayenne Sweeney.",
   "description": "Look up bird species using the Institute of Bird Population's 4-letter alpha codes, or vice-versa.",
-  "version": "1.1.0",
+  "version": "2.0.0",
 
   "icons": {
-    "16": "images/icon16.png",
-    "32": "images/icon32.png",
-    "48": "images/icon48.png",
-    "128": "images/icon128.png"
+    "16": "resources/icon16.png",
+    "32": "resources/icon32.png",
+    "48": "resources/icon48.png",
+    "128": "resources/icon128.png"
   },
 
   "browser_action": {
-    "default_icon": "images/popupicon.png",
+    "default_icon": "resources/popupicon.png",
     "default_popup": "popup.html"
   }
 }

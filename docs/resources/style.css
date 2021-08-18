@@ -1,0 +1,39 @@
+/* Search bar design */
+#input_box {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Table design */
+table {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  border: 0px;
+  width: 100%;
+  table-layout: fixed;
+  white-space: wrap;
+}
+td, th {
+  text-align: left;
+  padding: 0.5em;
+  border: 0px;
+  width: 100%;
+}
+.hidden {
+  display: none;
+}
+
+
+/* Relative header sizing */
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5rem;
+}
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+   .container { max-width: 40em; }
+   .image-fluid { max-width: 15em; }
+}

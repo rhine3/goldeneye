@@ -6,92 +6,22 @@
  -->
 <html>
   <head>
+    <!-- JavaScript and HTML must be in separate files-->
     <title>Goldeneye</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet"> <!--Google font-->
-    <style type="text/css">
-    body {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 13px;
-      width: 300px;
-      white-space: wrap;
-      margin: 20px;
-    }
 
-    #header-wrap {
-      display: inline-block;
-    }
+    <!--my own personal style sheet-->
+    <link rel="stylesheet" href="resources/style.css">
 
-    #header-image,
-    #header-text {
-      display: inline-block;
-      vertical-align: middle;
-    }
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet"> <!--Google font-->
 
-    img {
-      display: block;
-      float: left;
-      width: 100px;
-      margin-right:10px;
-    }
+    <!--loads table into a variable search_data-->
+    <script src="resources/alpha_data.html"></script>
 
-    h1 {
-      font-family: 'Roboto Slab', serif;
-      font-size: 33px;
-      margin-bottom: 0px;
-      margin-top: 0px;
-    }
-
-    h2 {
-      font-family: 'Roboto Slab', serif;
-      font-weight: normal;
-      font-size: 15px;
-      margin-top: 0px;
-    }
-
-    #formholder {
-      margin-top: 15px;
-      margin-bottom: 10px;
-    }
-
-    #input_box {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 13px;
-      width: 100%;
-      box-sizing: border-box;
-      padding-left: 5px;
-      padding-right: 3px;
-    }
-
-    #result_table {
-      width: 100%;
-    }
-
-    .result_td {
-      padding: 5px;
-    }
-    </style>
-
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
-    -->
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-      <!--my own personal style sheet-->
-      <link rel="stylesheet" href="resources/style.css">
-
-      <!-- google font -->
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet"> <!--Google font-->
-
-      <!--loads table into a variable search_data-->
-      <script src="resources/alpha_data.html"></script>
-      <script src="search.js"></script>
+    <!-- performs search and table update operations -->
+    <script src="search.js"></script>
   </head>
-
   <body>
 
     <div id="header-wrap">
@@ -103,13 +33,16 @@
         <h2>An alpha code dictionary</h2>
       </div>
     </div>
+
     <div id="formholder">
         <!-- Form search bar -->
         <input type="text" id="input_box" placeholder="Search for a code or species" autofocus='autofocus'>
     </div>
+
     <div id = "resultholder">
       <table id="result_table">
       </table>
     </div>
+
   </body>
 </html>

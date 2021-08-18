@@ -5,121 +5,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--bootstrap for design; place before all other stylesheets-->
+  <!-- bootstrap for responsive design; place before all other stylesheets -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <!--my own personal style sheet-->
-  <link rel="stylesheet" href="resources/style.css">
+  <!-- project-specific style sheet -->
+  <link href="./resources/style.css" rel="stylesheet">
 
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet"> <!--Google font-->
 
-  <!--loads table into a variable search_data-->
-  <script src="resources/alpha_data.html"></script>
-  <script>
-  // Global variables
-  var tr, div;
+  <!-- loads table into a variable search_data-->
+  <script src="./resources/alpha_data.html"></script>
 
-  function search(search_string){
-    var results = [];
-    for (var search_key in search_data){
-      if (search_key.toLowerCase().indexOf(search_string) > -1) {
-        results.push(search_data[search_key]["Result"]);
-      };
-    };
-    return results;
-  };
+  <!-- functions for searching -->
+  <script src="./search.js"></script>
 
-  function clear_table(){
-    //Remove any old elements of table
-    var table = document.getElementById("result_table")
-    table.innerHTML = '';
-    return table;
-  };
-
-  function build_table(search, response){
-    var table = clear_table();
-    var cells = [];
-    for (var idx in response){
-      if (response[idx].substring(0,4).toLowerCase() === search){
-        var r = response[idx];
-        response.splice(idx, 1); // Remove from current position
-        response.unshift(r); // Add to beginning
-        break;
-      }
-    }
-
-    for (var idx in response){
-      var row, cell;
-      // Add cell and populate with text
-      row = table.insertRow(idx);
-      cell = row.insertCell(0);
-      cell.innerHTML = response[idx];
-
-      // Add stripe formatting
-      cell.style.backgroundColor = (!!(idx&1)? "rgba(0,0,0,.05)" : "rgba(0,0,0,0)");
-    };
-  };
-
-  async function search_and_display(user_input){
-    var search_string = document.getElementById("input_box").value.toLowerCase();
-    if (search_string.length < 2){
-      clear_table();
-    } else {
-      const response = await search(search_string);
-
-      await build_table(search_string, response);
-    };
-  };
-  </script>
 </head>
 
-<style>
-  /* Search bar design */
-  #input_box {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-  }
-
-  /* Table design */
-  table {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-    border: 0px;
-    width: 100%;
-    table-layout: fixed;
-    white-space: wrap;
-  }
-  td, th {
-    text-align: left;
-    padding: 0.5em;
-    border: 0px;
-    width: 100%;
-  }
-  .hidden {
-    display: none;
-  }
-
-
-/* Relative header sizing */
-  h1 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 2.5rem;
-  }
-  h2 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 1rem;
-  }
-  @media (min-width: 768px) {
-     .container { max-width: 40em; }
-     .image-fluid { max-width: 15em; }
-  }
-
-</style>
-
 <body>
-
-
 <div class="container ml-5">
   <!--Classes add top, right, left, and bottom spacing-->
   <div class="row mt-5 mr-5 ml-5 mb-3 align-items-center">
@@ -146,7 +49,5 @@
       </div>
   </div>
 </div>
-
-
 </body>
 </html>

@@ -3,7 +3,7 @@ WEGR,Western Grebe,Aechmophorus occidentalis,,
 CLGR,Clark's Grebe,Aechmophorus clarkii,,
 WCGR,Western/Clark's Grebe,,,Unspecified Aechmophorus occidentalis or A. clarkii. | Aechmophorus occidentalis ou A. clarkii non spécifié
 RNGR,Red-necked Grebe,Podiceps grisegena,,
-HOGR,Horned Grebe,Podiceps auritus,Y,Magdalen Islands population is endangered. | La population des Îles de la Madeleine est en voie de disparition.
+HOGR,Horned Grebe,Podiceps auritus,Québec,Magdalen Islands population is endangered. | La population des Îles de la Madeleine est en voie de disparition.
 EAGR,Eared Grebe,Podiceps nigricollis,,
 LEGR,Least Grebe,Tachybaptus dominicus,,
 PBGR,Pied-billed Grebe,Podilymbus podiceps,,
@@ -41,8 +41,8 @@ SPSK,South Polar Skua,Stercorarius maccormicki,,
 POJA,Pomarine Jaeger,Stercorarius pomarinus,,
 PAJA,Parasitic Jaeger,Stercorarius parasiticus,,
 LTJA,Long-tailed Jaeger,Stercorarius longicaudus,,
-IVGU,Ivory Gull,Pagophila eburnea,Newfoundland and LabradorNorthwest TerritoriesNunavut,
-MAGU,Magellan Gull,Leucophaeus scoresbii,,
+IVGU,Ivory Gull,Pagophila eburnea,Newfoundland and Labrador Northwest Territories Nunavut,
+DOGU,Dolphin Gull,Leucophaeus scoresbii,,
 BLKI,Black-legged Kittiwake,Rissa tridactyla,,
 RLKI,Red-legged Kittiwake,Rissa brevirostris,,
 GLGU,Glaucous Gull,Larus hyperboreus,,"Size 6 for northern subspecies, barrovanius. | Taille 6 pour la sous-espèce nordique, barrovanius."
@@ -59,20 +59,22 @@ HERG,Herring Gull,Larus argentatus,,
 CAGU,California Gull,Larus californicus,,
 UNGU,Unidentified Gull,,,Explain in Remarks why the unidentified code was chosen. | Expliquez dans les Remarques pourquoi le code non identifié a été choisi.
 RBGU,Ring-billed Gull,Larus delawarensis,,
-BTGU,Band-tailed Gull,Larus belcheri,,
-MEGU,Mew Gull,Larus canus,,
+BEGU,Belcher's Gull,Larus belcheri,,
+UMGU,Unidentified Mew Gull,,,"Mew Gull Split, AOS 62nd Supplement (2021)"
 BHGU,Black-headed Gull,Chroicocephalus ridibundus,,
+COGU,Common Gull,Larus canus,,"from Mew Gull Split, AOS 62nd Supplement (2021)"
+SHOG,Short-billed Gull,Larus brachyrhynchus,,"from Mew Gull Split, AOS 62nd Supplement (2021)"
 HEEG,Heermann's Gull,Larus heermanni,,
 LAGU,Laughing Gull,Leucophaeus atricilla,,
 FRGU,Franklin's Gull,Leucophaeus pipixcan,,
 BOGU,Bonaparte's Gull,Chroicocephalus philadelphia,,
 LIGU,Little Gull,Hydrocoloeus minutus,,
-ROGU,Ross's Gull,Rhodostethia rosea,ManitobaNunavut,
+ROGU,Ross's Gull,Rhodostethia rosea,Manitoba Nunavut,
 SAGU,Sabine's Gull,Xema sabini,,
 GBTE,Gull-billed Tern,Gelochelidon nilotica,,
 CATE,Caspian Tern,Hydroprogne caspia,,
 ROYT,Royal Tern,Thalasseus maximus,,
-CRTE,Crested Tern,Thalasseus bergii,,
+GCTE,Great Crested Tern,Thalasseus bergii,,
 ELTE,Elegant Tern,Thalasseus elegans,,
 SATE,Sandwich Tern,Thalasseus sandvicensis,,
 CAYT,Cayenne Tern,Thalasseus acuflavidus eurygnathus,,
@@ -86,7 +88,7 @@ ALTE,Aleutian Tern,Onychoprion aleuticus,,
 BNTE,Black-naped Tern,Sterna sumatrana,,
 LETE,Least Tern,Sternula antillarum,,
 LITE,Little Tern,Sternula albifrons,,
-ILTE,Interior Least Tern,Sternula antillarum athalassos,Y,
+ILTE,Interior Least Tern,Sternula antillarum athalassos,,
 CLTE,California Least Tern,Sternula antillarum browni,Y,
 SOTE,Sooty Tern,Onychoprion fuscatus,,
 BRTE,Bridled Tern,Onychoprion anaethetus,,
@@ -105,16 +107,18 @@ HYAL,Hybrid Albatross,,,"Report suspected parentage as a remark (e.g. Species1 x
 STAL,Short-tailed Albatross,Phoebastria albatrus,Y,
 LAAL,Laysan Albatross,Phoebastria immutabilis,,
 BBAL,Black-browed Albatross,Thalassarche melanophris,,
-SHAL,Shy Albatross,Thalassarche cauta,,
+WCAL,White-capped Albatross,Thalassarche cauta,,
 WAVA,Waved Albatross,Phoebastria irrorata,,
 YNAL,Yellow-nosed Albatross,Thalassarche chlororhynchos,,
 NOFU,Northern Fulmar,Fulmarus glacialis,,
-COSH,Cory's Shearwater,Calonectris diomedea,,
+UCSH,Unidentified Cory’s Shearwater (Scopoli’s/Cory’s),,,"From Cory's Shearwater split, AOS 65th Supplement (2024)"
 STRS,Streaked Shearwater,Calonectris leucomelas,,
+COSH,Cory's Shearwater,Calonectris borealis,,"From Cory's Shearwater split, AOS 65th Supplement (2024)"
+SCSH,Scopoli's Shearwater,Calonectris diomedea,,"From Cory's Shearwater split, AOS 65th Supplement (2024)"
 GRSH,Great Shearwater,Ardenna gravis,,
 MASH,Manx Shearwater,Puffinus puffinus,,
-PFSH,Pink-footed Shearwater,Puffinus creatopus,British Columbia,
-AUSH,Audubon's Shearwater,Puffinus lherminieri,,
+PFSH,Pink-footed Shearwater,Ardenna creatopus,British Columbia,
+SASH,Sargasso Shearwater,Puffinus lherminieri,,"From Audubon's Shearwater split, AOS 65th Supplement (2024)"
 LISH,Little Shearwater,Puffinus assimilis,,
 TRSH,Tropical Shearwater,Puffinus bailloni,,
 BVSH,Black-vented Shearwater,Puffinus opisthomelas,,
@@ -126,7 +130,7 @@ SHOS,Short-tailed Shearwater,Ardenna tenuirostris,,
 WTSH,Wedge-tailed Shearwater,Ardenna pacifica,,
 BULS,Buller's Shearwater,Ardenna bulleri,,
 CHSH,Christmas Shearwater,Puffinus nativitatis,,
-BCPE,Black-capped Petrel,Pterodroma hasitata,,
+BCPE,Black-capped Petrel,Pterodroma hasitata,Y,
 COPE,Cook's Petrel,Pterodroma cookii,,
 HAPE,Hawaiian Petrel,Pterodroma sandwichensis,Y,
 TRPE,Trindade Petrel,Pterodroma arminjoniana,,
@@ -143,7 +147,7 @@ CAPE,Cape Petrel,Daption capense,,
 LTSP,Least Storm-Petrel,Hydrobates microsoma,,
 FTSP,Fork-tailed Storm-Petrel,Hydrobates furcatus,,
 LHSP,Leach's Storm-Petrel,Hydrobates leucorhous,,
-BANP,Band-rumped Storm-Petrel,Hydrobates castro,,
+BANP,Band-rumped Storm-Petrel,Hydrobates castro,Y,
 WRSP,Wedge-rumped Storm-Petrel,Hydrobates tethys,,
 BLSP,Black Storm-Petrel,Hydrobates melania,,
 TRSP,Tristram's Storm-Petrel,Hydrobates tristrami,,
@@ -157,17 +161,19 @@ RTTR,Red-tailed Tropicbird,Phaethon rubricauda,,
 MABO,Masked Booby,Sula dactylatra,,
 BFBO,Blue-footed Booby,Sula nebouxii,,
 NABO,Nazca Booby,Sula granti,,Band size unknown; may be same as Masked Booby. | La taille de la bague est inconnue; elle peut être identique à celle du Fou masqué.
-BRBO,Brown Booby,Sula leucogaster,,
+UBBO,Unidentified Brown Booby (Cocos/Brown),,,"From Brown Booby split, AOS 65th Supplement (2024)"
+BRBO,Brown Booby,Sula ​​leucogaster,,"From Brown Booby split, AOS 65th Supplement (2024)"
+COBO,Cocos Booby,Sula ​​brewsteri,,"From Brown Booby split, AOS 65th Supplement (2024)"
 RFBO,Red-footed Booby,Sula sula,,
 NOGA,Northern Gannet,Morus bassanus,,
 ANHI,Anhinga,Anhinga anhinga,,
 GRCO,Great Cormorant,Phalacrocorax carbo,,
-DCCO,Double-crested Cormorant,Phalacrocorax auritus,,
+DCCO,Double-crested Cormorant,Nannopterum auritum,,
 GUCO,Guanay Cormorant,Leucocarbo bougainvillii,,
-NECO,Neotropic Cormorant,Phalacrocorax brasilianus,,
-BRAC,Brandt's Cormorant,Phalacrocorax penicillatus,,
-PECO,Pelagic Cormorant,Phalacrocorax pelagicus,,
-RFCO,Red-faced Cormorant,Phalacrocorax urile,,
+NECO,Neotropic Cormorant,Nannopterum brasilianum,,
+BRAC,Brandt's Cormorant,Urile penicillatus,,
+PECO,Pelagic Cormorant,Urile pelagicus,,
+RFCO,Red-faced Cormorant,Urile urile,,
 AWPE,American White Pelican,Pelecanus erythrorhynchos,,
 BRPE,Brown Pelican,Pelecanus occidentalis,,
 MAFR,Magnificent Frigatebird,Fregata magnificens,,Require 7B or 7A short. | Nécessite 7B ou 7A courte.
@@ -191,7 +197,7 @@ MODU,Mottled Duck,Anas fulvigula,,
 GADW,Gadwall,Mareca strepera,,
 EUWI,Eurasian Wigeon,Mareca penelope,,
 AMWI,American Wigeon,Mareca americana,,
-FATE,Falcated Teal,Mareca falcata,,
+FADU,Falcated Duck,Mareca falcata,,
 EGWT,European Green-winged Teal,Anas crecca crecca,,
 AGWT,Green-winged Teal,Anas crecca,,
 BATE,Baikal Teal,Sibirionetta formosa,,
@@ -240,10 +246,13 @@ LWFG,Lesser White-fronted Goose,Anser erythropus,,
 OHGO,Other Hybrid Goose,,,"Report suspected parentage as a remark (e.g. Species1 x Species2). | Signalez les liens de parenté suspects dans le champs remarque (p. ex., Espèce1 x Espèce2)."
 TWFG,Tule White-fronted Goose,Anser albifrons elgasi,,
 CAGO,Canada Goose,Branta canadensis,,
-ACGO,Aleutian Canada Goose,Branta hutchinsii leucopareia,,
-CACG,Cackling Goose,Branta hutchinsii,,
+ACGO,Aleutian Cackling Goose,Branta hutchinsii leucopareia,,
+MCGO,Minima Cackling Goose,Branta hutchinsii minima,,
 LCGO,Large Canada Goose,Branta canadensis maxima,,
-SCGO,Small Canada Goose,Branta canadensis parvipes,,
+TCGO,Taverner's Cackling Goose,Branta hutchinsii taverneri,,
+RCGO,Richardson's Cackling Goose,Branta hutchinsii hutchinsii,,
+DCGO,Dusky Canada Goose,Branta canadensis ocidentalis,,
+SCGO,Small Canada/Cackling Goose,Branta canadensis parvipes,,"B. hutchinsii, nondistinguishable to subspecies, or B. c. parvipes"
 ATBR,Atlantic Brant,Branta bernicla hrota,,
 BABI,Black X Atlantic Brant Intergrade,,,
 BLBR,Black Brant,Branta bernicla nigricans,,
@@ -264,10 +273,12 @@ WHIB,White Ibis,Eudocimus albus,,
 SCIB,Scarlet Ibis,Eudocimus ruber,,
 GLIB,Glossy Ibis,Plegadis falcinellus,,
 WFIB,White-faced Ibis,Plegadis chihi,,
+HYIB,Hybrid Ibis,,,
+UNIB,Unidentified Ibis,,,
 WOST,Wood Stork,Mycteria americana,Y,
 AMBI,American Bittern,Botaurus lentiginosus,,
-LEBI,Least Bittern,Ixobrychus exilis,ManitobaNew BrunswickNova ScotiaOntarioQuébec,
-YEBI,Yellow Bittern,Ixobrychus sinensis,,
+LEBI,Least Bittern,Botaurus exilis,Manitoba New Brunswick Nova Scotia Ontario Québec,"Genus name change, AOS 65th Supplement (2024)"
+YEBI,Yellow Bittern,Botaurus sinensis,,"Genus change, AOS 65th Supplement (2024)"
 GWHE,Great White Heron,Ardea herodias occidentalis,,
 GBHE,Great Blue Heron,Ardea herodias,,
 GREG,Great Egret,Ardea alba,,
@@ -276,16 +287,16 @@ SNEG,Snowy Egret,Egretta thula,,
 REEG,Reddish Egret,Egretta rufescens,,
 TRHE,Tricolored Heron,Egretta tricolor,,
 LBHE,Little Blue Heron,Egretta caerulea,,
-CAEG,Cattle Egret,Bubulcus ibis,,
+WECE,Western Cattle Egret,Aredea ibis,,"From Cattle Egret split, AOS 65th Supplement (2024)"
 GRHE,Green Heron,Butorides virescens,,
-BCNH,Black-crowned Night-Heron,Nycticorax nycticorax,,
-YCNH,Yellow-crowned Night-Heron,Nyctanassa violacea,,
+BCNH,Black-crowned Night Heron,Nycticorax nycticorax,,
+YCNH,Yellow-crowned Night Heron,Nyctanassa violacea,,
 WHCR,Whooping Crane,Grus americana,Y,
 SACR,Sandhill Crane,Antigone canadensis,,
 MSCR,Mississippi Sandhill Crane,Antigone canadensis pulla,Y,
 LIMP,Limpkin,Aramus guarauna,,
 KIRA,King Rail,Rallus elegans,Ontario,
-CLRA,Clapper Rail,Rallus longirostris,,
+CLRA,Clapper Rail,Rallus crepitans,,
 CRRA,California Ridgway's Rail,Rallus obsoletus obsoletus,Y,
 LFRR,Light-footed Ridgway's Rail,Rallus obsoletus levipes,Y,
 YRRA,Yuma Ridgway's Rail,Rallus obsoletus yumanensis,Y,
@@ -322,7 +333,7 @@ SWSN,Swinhoe's Snipe,Gallinago megala,,
 SBDO,Short-billed Dowitcher,Limnodromus griseus,,
 LBDO,Long-billed Dowitcher,Limnodromus scolopaceus,,
 STSA,Stilt Sandpiper,Calidris himantopus,,
-REKN,Red Knot,Calidris canutus,British ColumbiaYukon TerritoryNorthwest Territories,
+REKN,Red Knot,Calidris canutus,British Columbia Yukon Territory Northwest Territories,
 RRKN,Rufa Red Knot,Calidris canutus rufa,Y,
 PUSA,Purple Sandpiper,Calidris maritima,,
 ROSA,Rock Sandpiper,Calidris ptilocnemis,,
@@ -362,7 +373,7 @@ LBCU,Long-billed Curlew,Numenius americanus,,Use size 6 if banding on tibiotarsu
 WHIM,Whimbrel,Numenius phaeopus,,
 BTCU,Bristle-thighed Curlew,Numenius tahitiensis,,
 NOLA,Northern Lapwing,Vanellus vanellus,,
-EUDO,Eurasian Dotterel,Charadrius morinellus,,
+EUDO,Eurasian Dotterel,Eudromias morinellus,,"Genus name change, AOS 65th Supplement (2024)"
 BBPL,Black-bellied Plover,Pluvialis squatarola,,
 EUGP,European Golden-Plover,Pluvialis apricaria,,
 AMGP,American Golden-Plover,Pluvialis dominica,,AOU split from 2729-LEGP in 1993. | AOU l’a séparé de 2729-LEGP en 1993.
@@ -372,11 +383,11 @@ KILL,Killdeer,Charadrius vociferus,,
 SEPL,Semipalmated Plover,Charadrius semipalmatus,,
 CRPL,Common Ringed Plover,Charadrius hiaticula,,
 PIPL,Piping Plover,Charadrius melodus,Y,
-SNPL,Snowy Plover,Charadrius nivosus,,
-WSPL,Western Snowy Plover,Charadrius nivosus nivosus,Y,"Endangered western populations (coastal CA, OR, WA). | Populations à l'ouest menacées (CA, OR, WA)."
-LRSP,Lesser Sand-Plover,Charadrius mongolus,,
-WIPL,Wilson's Plover,Charadrius wilsonia,,
-MOPL,Mountain Plover,Charadrius montanus,AlbertaSaskatchewan,
+SNPL,Snowy Plover,Anarhynchus nivosus,,"Genus name change, AOS 65th Supplement (2024)"
+WSPL,Western Snowy Plover,Anarhynchus nivosus nivosus,Y,"Endangered western populations (coastal CA, OR, WA). | Populations à l'ouest menacées (CA, OR, WA). Genus name change, AOS 65th Supplement (2024)"
+SISP,Siberian Sand-Plover,Anarhynchus mongolus,,
+WIPL,Wilson's Plover,Anarhynchus wilsonia,,"Genus name change, AOS 65th Supplement (2024)"
+MOPL,Mountain Plover,Anarhynchus montanus,Alberta Saskatchewan,"Genus name change, AOS 65th Supplement (2024)"
 SURF,Surfbird,Calidris virgata,,
 RUTU,Ruddy Turnstone,Arenaria interpres,,
 BLTU,Black Turnstone,Arenaria melanocephala,,
@@ -392,7 +403,7 @@ SNPI,Scaly-naped Pigeon,Patagioenas squamosa,,
 SPDO,Spotted Dove,Streptopelia chinensis,,Require 4 short. | Nécessite 4 courte.
 AFCD,African Collared-Dove,Streptopelia roseogrisea,,
 ZEBD,Zebra Dove,Geopelia striata,,
-WTGD,White-throated Ground-Dove,Alopecoenas xanthonurus,,
+WTGD,White-throated Ground Dove,Pampusana xanthonura,,
 MAFD,Mariana Fruit Dove,Ptilinopus roseicapilla,,
 PHTD,Philippine Turtle-Dove,Streptopelia bitorquata,,
 ECDO,Eurasian Collared-Dove,Streptopelia decaocto,,Require 4 or 4A short. | Nécessite 4 ou 4A courte.
@@ -402,8 +413,8 @@ ZEND,Zenaida Dove,Zenaida aurita,,
 WTDO,White-tipped Dove,Leptotila verreauxi,,
 CADO,Caribbean Dove,Leptotila jamaicensis,,
 WWDO,White-winged Dove,Zenaida asiatica,,
-COGD,Common Ground-Dove,Columbina passerina,,
-RUGD,Ruddy Ground-Dove,Columbina talpacoti,,
+COGD,Common Ground Dove,Columbina passerina,,
+RUGD,Ruddy Ground Dove,Columbina talpacoti,,
 INDO,Inca Dove,Columbina inca,,
 KWQD,Key West Quail-Dove,Geotrygon chrysia,,
 RUQD,Ruddy Quail-Dove,Geotrygon montana,,
@@ -420,7 +431,7 @@ NOHA,Northern Harrier,Circus hudsonius,,Lock-on bands recommended. | Bagues encl
 SSHA,Sharp-shinned Hawk,Accipiter striatus,,
 PSSH,Puerto Rican Sharp-shinned Hawk,Accipiter striatus venator,Y,
 COHA,Cooper's Hawk,Accipiter cooperii,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
-NOGO,Northern Goshawk,Accipiter gentilis,British Columbia,Lock-on bands recommended. | Bagues enclenchantes recommandées.
+AGOS,American Goshawk,Accipiter atricapillus,British Columbia,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 HRSH,Harris's Hawk,Parabuteo unicinctus,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 RTHA,Red-tailed Hawk,Buteo jamaicensis,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 HRLH,Harlan's Hawk,Buteo jamaicensis harlani,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
@@ -436,7 +447,7 @@ HWHA,Hawaiian Hawk,Buteo solitarius,Y,Lock-on bands recommended. | Bagues enclen
 CBHA,Common Black Hawk,Buteogallus anthracinus,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 GRHA,Gray Hawk,Buteo plagiatus,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 RLHA,Rough-legged Hawk,Buteo lagopus,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
-FEHA,Ferruginous Hawk,Buteo regalis,AlbertaManitobaSaskatchewan,Lock-on bands recommended. | Bagues enclenchantes recommandées.
+FEHA,Ferruginous Hawk,Buteo regalis,Alberta Manitoba Saskatchewan,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 GOEA,Golden Eagle,Aquila chrysaetos,,Rivet bands only. | Bagues à rivet seulement.
 BAEA,Bald Eagle,Haliaeetus leucocephalus,,Rivet bands only. | Bagues à rivet seulement.
 GYRF,Gyrfalcon,Falco rusticolus,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
@@ -446,16 +457,16 @@ MERL,Merlin,Falco columbarius,,Lock-on bands recommended. | Bagues enclenchantes
 APFA,Aplomado Falcon,Falco femoralis,Y,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 EUKE,Eurasian Kestrel,Falco tinnunculus,,
 AMKE,American Kestrel,Falco sparverius,,
-CRCA,Crested Caracara,Caracara cheriway,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
-ACCA,Audubon's Crested Caracara,Polyborus plancus audubonii,Y,Endangered population in Florida. Lock-on bands recommended. | Population menacée en Floride. Bagues enclenchantes recommandées.
+CRCA,Crested Caracara,Caracara plancus,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
+ACCA,Audubon's Crested Caracara,Caracara plancus audubonii,Y,Endangered population in Florida. Lock-on bands recommended. | Population menacée en Floride. Bagues enclenchantes recommandées.
 OSPR,Osprey,Pandion haliaetus,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
-BNOW,Barn Owl,Tyto alba,OntarioQuébec,Lock-on bands recommended. | Bagues enclenchantes recommandées.
+ABOW,American Barn Owl,Tyto furcata,British Columbia Ontario Québec,"From Barn Owl split, AOS 65th Supplement (2024)"
 AFOW,Ashy-faced Owl,Tyto glaucops,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 LEOW,Long-eared Owl,Asio otus,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 SEOW,Short-eared Owl,Asio flammeus,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
-BDOW,Barred Owl,Strix varia,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
+BAOW,Barred Owl,Strix varia,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 SBOH,Spotted X Barred Owl Hybrid,,,Lock-on bands recommended. Strix occidentalis X S. varia. | Bagues enclenchantes recommandées. Strix occidentalis X S. varia.
-SPOW,Spotted Owl,Strix occidentalis,British Columbia,Lock-on bands recommended. | Bagues enclenchantes recommandées.
+USOW,Unspecified Spotted Owl,Strix occidentalis,British Columbia,To be used for Spotted Owls when subspecies cannot be determined
 CSOW,California Spotted Owl,Strix occidentalis occidentalis,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 NSOW,Northern Spotted Owl,Strix occidentalis caurina,Y,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 MSOW,Mexican Spotted Owl,Strix occidentalis lucida,Y,Lock-on bands recommended. | Bagues enclenchantes recommandées.
@@ -465,23 +476,29 @@ NSWO,Northern Saw-whet Owl,Aegolius acadicus,British Columbia,Use 4 (or 4A if ne
 EASO,Eastern Screech-Owl,Megascops asio,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 WHSO,Whiskered Screech-Owl,Megascops trichopsis,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 WESO,Western Screech-Owl,Megascops kennicottii,British Columbia,Lock-on bands recommended. | Bagues enclenchantes recommandées.
-PRSO,Puerto Rican Screech-Owl,Megascops nudipes,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
+PURO,Puerto Rican Owl,Gymnasio nudipes,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 FLOW,Flammulated Owl,Psiloscops flammeolus,,
 GHOW,Great Horned Owl,Bubo virginianus,,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 SNOW,Snowy Owl,Bubo scandiacus,,Rivet or Lock-on bands recommended. | Bagues à rivet ou enclenchantes recommandées.
 NHOW,Northern Hawk Owl,Surnia ulula,,Require 7A or 7B short. | Nécessite 7A ou 7B courte.
-BUOW,Burrowing Owl,Athene cunicularia,AlbertaBritish ColumbiaManitobaSaskatchewan,Lock-on bands recommended. | Bagues enclenchantes recommandées.
+BUOW,Burrowing Owl,Athene cunicularia,Alberta British Columbia Manitoba Saskatchewan,Lock-on bands recommended. | Bagues enclenchantes recommandées.
 NOPO,Northern Pygmy-Owl,Glaucidium gnoma,,
 FEPO,Ferruginous Pygmy-Owl,Glaucidium brasilianum,Y,
 ELOW,Elf Owl,Micrathene whitneyi,,
-BHPA,Black-headed Parakeet,Aratinga nenday,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
+NAPA,Nanday Parakeet,Aratinga nenday,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
 HPKT,Hispaniolan Parakeet,Psittacara chloropterus,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
 OFPA,Orange-fronted Parakeet,Eupsittula canicularis,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
 BTPA,Brown-throated Parakeet,Eupsittula pertinax,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
 BCLO,Blue-crowned Lorikeet,Vini australis,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
+GREP,Green Parakeet,Psittacara holochlorus,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
+MIPA,Mitred Parakeet,Psittacara mitratus,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
+WWPA,White-winged Parakeet,Brotogeris versicolurus,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
+YCPA,Yellow-chevroned Parakeet,Brotogeris chiriri,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
 TBPA,Thick-billed Parrot,Rhynchopsitta pachyrhyncha,Y,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
+RRPA,Rose-ringed Parakeet,Psittacula krameri,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
+RFLO,Rosy-faced Lovebird,Agapornis roseicollis,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
 MOPA,Monk Parakeet,Myiopsitta monachus,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
-CHCO,Cherry-head Conure,Psittacara erythrogenys,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
+RMPA,Red-masked Parakeet,Psittacara erythrogenys,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
 RCPA,Red-crowned Parrot,Amazona viridigenalis,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
 HPRT,Hispaniolan Parrot,Amazona ventralis,,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
 PRPA,Puerto Rican Parrot,Amazona vittata,Y,"No butt-end bands, special parrot bands only. | Pas de bagues à joint abouté, seulement des bagues spéciales pour perroquets."
@@ -513,48 +530,51 @@ ATTW,American Three-toed Woodpecker,Picoides dorsalis,,
 YBSA,Yellow-bellied Sapsucker,Sphyrapicus varius,,
 RNSA,Red-naped Sapsucker,Sphyrapicus nuchalis,,
 HYSA,Hybrid Sapsucker,,,"Report suspected parentage as a remark (e.g. Species1 x Species2). | Signalez les liens de parenté suspects dans le champs remarque (p. ex., Espèce1 x Espèce2)."
+UNSA,Unidentified Sapsucker,,,
 RBSA,Red-breasted Sapsucker,Sphyrapicus ruber,,
 WISA,Williamson's Sapsucker,Sphyrapicus thyroideus,British Columbia,
 PIWO,Pileated Woodpecker,Dryocopus pileatus,,
-RHWO,Red-headed Woodpecker,Melanerpes erythrocephalus,ManitobaOntarioQuébecSaskatchewan,
+RHWO,Red-headed Woodpecker,Melanerpes erythrocephalus,Manitoba Ontario Québec Saskatchewan,
 ACWO,Acorn Woodpecker,Melanerpes formicivorus,,
 PRWO,Puerto Rican Woodpecker,Melanerpes portoricensis,,
-LEWO,Lewis's Woodpecker,Melanerpes lewis,Y,
+LEWO,Lewis's Woodpecker,Melanerpes lewis,British Columbia,
 RBWO,Red-bellied Woodpecker,Melanerpes carolinus,,
 WIWO,West Indian Woodpecker,Melanerpes superciliaris,,
 GFWO,Golden-fronted Woodpecker,Melanerpes aurifrons,,
 GIWO,Gila Woodpecker,Melanerpes uropygialis,,
 YSFL,Yellow-shafted Flicker,Colaptes auratus auratus,,
 FLIN,Flicker Intergrade,Colaptes auratus,,To be used for Northern Flickers that appear to be intergrades between two subspecies. | À utiliser pour les pics flamboyants qui semblent être entre les deux sous-espèces.
+UNFL,Unspecified Northern Flicker,Colaptes auratus,,
 RSFL,Red-shafted Flicker,Colaptes auratus cafer,,
 GIFL,Gilded Flicker,Colaptes chrysoides,,
 CWWI,Chuck-will's-widow,Antrostomus carolinensis,,
 BCNI,Buff-collared Nightjar,Antrostomus ridgwayi,,
-EWPW,Eastern Whip-poor-will,Antrostomus vociferus,Y,
+EWPW,Eastern Whip-poor-will,Antrostomus vociferus,Manitoba New Brunswick Nova Scotia Ontario Québec Saskatchewan,
 PRNI,Puerto Rican Nightjar,Antrostomus noctitherus,Y,
 MWPW,Mexican Whip-poor-will,Antrostomus arizonae,,
 COPO,Common Poorwill,Phalaenoptilus nuttallii,,
 COPA,Common Pauraque,Nyctidromus albicollis,,
-CONI,Common Nighthawk,Chordeiles minor,AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNova ScotiaOntarioPrince Edward IslandQuébecSaskatchewanYukon TerritoryNorthwest Territories,
+CONI,Common Nighthawk,Chordeiles minor,Alberta British Columbia Manitoba New Brunswick Newfoundland and Labrador Nova Scotia Ontario Prince Edward Island Québec Saskatchewan Yukon Territory Northwest Territories Nunavut,
 ANNI,Antillean Nighthawk,Chordeiles gundlachii,,
 LENI,Lesser Nighthawk,Chordeiles acutipennis,,
-BLSW,Black Swift,Cypseloides niger,Y,
-CHSW,Chimney Swift,Chaetura pelagica,ManitobaNew BrunswickNova ScotiaOntarioQuébecSaskatchewan,
+BLSW,Black Swift,Cypseloides niger,Alberta British Columbia,
+CHSW,Chimney Swift,Chaetura pelagica,Manitoba New Brunswick Nova Scotia Ontario Québec Saskatchewan,
 STSW,Short-tailed Swift,Chaetura brachyura,,
 VASW,Vaux's Swift,Chaetura vauxi,,
 WTSW,White-throated Swift,Aeronautes saxatalis,,
-MAHU,Magnificent Hummingbird,Eugenes fulgens,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
+RIHU,Rivoli's Hummingbird,Eugenes fulgens,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 PCST,Plain-capped Starthroat,Heliomaster constantii,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
-BLUH,Blue-throated Hummingbird,Lampornis clemenciae,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
-GVIO,Green Violetear,Colibri thalassinus,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
+BTMG,Blue-throated Mountain-gem,Lampornis clemenciae,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
+MEVI,Mexican Violetear,Colibri thalassinus,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 RTHU,Ruby-throated Hummingbird,Archilochus colubris,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 BCHU,Black-chinned Hummingbird,Archilochus alexandri,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 COHU,Costa's Hummingbird,Calypte costae,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 ANHU,Anna's Hummingbird,Calypte anna,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
-BTLH,Broad-tailed Hummingbird,Selasphorus platycercus,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
+BTHU,Broad-tailed Hummingbird,Selasphorus platycercus,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 RUHU,Rufous Hummingbird,Selasphorus rufus,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
+UNSE,Unidentified Selasphorus Hummingbird,,,
 ALHU,Allen's Hummingbird,Selasphorus sasin,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
-BUHU,Bumblebee Hummingbird,Atthis heloisa,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
+BUHU,Bumblebee Hummingbird,Selasphorus heloisa,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 CAHU,Calliope Hummingbird,Selasphorus calliope,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 JAMA,Jamaican Mango,Anthracothorax mango,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 GRMA,Green Mango,Anthracothorax viridis,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
@@ -564,10 +584,10 @@ GREM,Green-breasted Mango,Anthracothorax prevostii,,"Appropriate diameter to be 
 LUHU,Lucifer Hummingbird,Calothorax lucifer,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 BAWO,Bahama Woodstar,Nesophlox evelynae,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 RUFH,Rufous-tailed Hummingbird,Amazilia tzacatl,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
-BEHU,Berylline Hummingbird,Amazilia beryllina,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
+BEHU,Berylline Hummingbird,Saucerottia beryllina,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 BUFH,Buff-bellied Hummingbird,Amazilia yucatanensis,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
-VCHU,Violet-crowned Hummingbird,Amazilia violiceps,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
-WEHU,White-eared Hummingbird,Hylocharis leucotis,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
+VCHU,Violet-crowned Hummingbird,Ramosomyia violiceps,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
+WEHU,White-eared Hummingbird,Basilinna leucotis,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 PREM,Puerto Rican Emerald,Chlorostilbon maugaeus,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
 HYHU,Hybrid Hummingbird,,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. Explain in remarks what the parent species were. | La taille appropriée de la bague est déterminée en fonction de l'espèce, du sexe et de considérations géographiques. Expliquer dans les remarques quelles étaient les espèces parentes."
 UNHU,Unidentified Hummingbird,,,"Appropriate diameter to be determined based on species, gender, and geographic considerations. | Le diamètre approprié de la bague est déterminé en fonction de l'espèce, du sexe et de considérations géographiques."
@@ -597,7 +617,7 @@ LESF,Lesser Antillean Flycatcher,Myiarchus oberi,,
 EAPH,Eastern Phoebe,Sayornis phoebe,,
 SAPH,Say's Phoebe,Sayornis saya,,
 BLPH,Black Phoebe,Sayornis nigricans,,
-OSFL,Olive-sided Flycatcher,Contopus cooperi,AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNova ScotiaOntarioPrince Edward IslandQuébecSaskatchewanYukon TerritoryNorthwest Territories,
+OSFL,Olive-sided Flycatcher,Contopus cooperi,Alberta British Columbia Manitoba New Brunswick Newfoundland and Labrador Nova Scotia Ontario Prince Edward Island Québec Saskatchewan Yukon Territory Northwest Territories,
 GRPE,Greater Pewee,Contopus pertinax,,
 EAWP,Eastern Wood-Pewee,Contopus virens,,
 WEWP,Western Wood-Pewee,Contopus sordidulus,,
@@ -606,9 +626,9 @@ LAPE,Lesser Antillean Pewee,Contopus latirostris,,
 JAPE,Jamaican Pewee,Contopus pallidus,,
 HIPE,Hispaniolan Pewee,Contopus hispaniolensis,,
 YBFL,Yellow-bellied Flycatcher,Empidonax flaviventris,,
-COFL,Cordilleran Flycatcher,Empidonax occidentalis,,AOU split from 4649-WEFL in 1989. | AOU l’a séparé de 4649-WEFL en 1989.
-PSFL,Pacific-slope Flycatcher,Empidonax difficilis,,AOU split from 4649-WEFL in 1989. | AOU l’a séparé de 4649-WEFL en 1989.
-WEFL,Western Flycatcher,,,
+COFL,Cordilleran Flycatcher,,,"AOU split from 4649-WEFL in 1989. | AOU l’a séparé de 4649-WEFL en 1989. No longer species from From Western Flycatcher lump, AOS 64rd Supplement"
+PSFL,Pacific-slope Flycatcher,,,"AOU split from 4649-WEFL in 1989. | AOU l’a séparé de 4649-WEFL en 1989. No longer species from From Western Flycatcher lump, AOS 64rd Supplement"
+WEFL,Western Flycatcher,Empidonax difficilis,,"Elevated to species, AOS 64rd Supplement (2023)"
 ACFL,Acadian Flycatcher,Empidonax virescens,Ontario,
 WIFL,Willow Flycatcher,Empidonax traillii,,AOU split from 4669-TRFL in 1973. | AOU l’a séparé de 4669-TRFL en 1973.
 ALFL,Alder Flycatcher,Empidonax alnorum,,AOU split from 4669-TRFL in 1973. | AOU l’a séparé de 4669-TRFL en 1973.
@@ -624,27 +644,28 @@ VEFL,Vermilion Flycatcher,Pyrocephalus rubinus,,
 GREL,Greenish Elaenia,Myiopagis viridicata,,
 NBTY,Northern Beardless-Tyrannulet,Camptostoma imberbe,,
 CAEL,Caribbean Elaenia,Elaenia martinica,,
+SBEL,Small-billed Elaenia,Elaenia parvirostris,,
 EUSK,Eurasian Skylark,Alauda arvensis,,
-HOLA,Horned Lark,Eremophila alpestris,Y,strigata subspecies endangered in BC. | La sous-espèce strigata est menacée en Colombie-Britannique.
+HOLA,Horned Lark,Eremophila alpestris,British Columbia,strigata subspecies endangered in BC. | La sous-espèce strigata est menacée en Colombie-Britannique.
 SHLA,Streaked Horned Lark,Eremophila alpestris strigata,Y,"E. a. strigata only in OR, WA. BC | E. a. strigata uniquement en Oregon, Washington, Colombie-Britannique."
 BBMA,Black-billed Magpie,Pica hudsonia,,
 YBMA,Yellow-billed Magpie,Pica nuttalli,,
 BLJA,Blue Jay,Cyanocitta cristata,,
 STJA,Steller's Jay,Cyanocitta stelleri,,
 FLSJ,Florida Scrub-Jay,Aphelocoma coerulescens,Y,
-WESJ,Western Scrub-Jay,Aphelocoma californica,,
+UWSJ,Unspecified Western Scrub-Jay,,,Includes Aphelocoma californica and A. woodhouseii prior to split in AOS 57th Supplement (2016)
 ISSJ,Island Scrub-Jay,Aphelocoma insularis,,
 WOSJ,Woodhouse's Scrub-Jay,Aphelocoma woodhouseii,,
 CASJ,California Scrub-Jay,Aphelocoma californica,,
 MEJA,Mexican Jay,Aphelocoma wollweberi,,
-GREJ,Green Jay,Cyanocorax yncas,,
-BRJA,Brown Jay,Psilorhinus morio,,
+GRJA,Green Jay,Cyanocorax yncas,,
+BRJA,Brown Jay,Cyanocorax morio,,
 CAJA,Canada Jay,Perisoreus canadensis,,
 CORA,Common Raven,Corvus corax,,
 CHRA,Chihuahuan Raven,Corvus cryptoleucus,,
 WNCR,White-necked Crow,Corvus leucognaphalus,Y,
 AMCR,American Crow,Corvus brachyrhynchos,,
-NOCR,Northwestern Crow,Corvus caurinus,,
+NOCR,Northwestern Crow,Corvus brachyrhynchos caurinus,,
 TACR,Tamaulipas Crow,Corvus imparatus,,
 HCRO,Hawaiian Crow,Corvus hawaiiensis,Y,
 FICR,Fish Crow,Corvus ossifragus,,
@@ -656,7 +677,7 @@ COMY,Common Myna,Acridotheres tristis,,
 JAMY,Javan Myna,Acridotheres javanicus,,
 HIMY,Hill Myna,Gracula religiosa,,
 JUMY,Jungle Myna,Acridotheres fuscus,,
-BOBO,Bobolink,Dolichonyx oryzivorus,Y,
+BOBO,Bobolink,Dolichonyx oryzivorus,Alberta British Columbia Manitoba New Brunswick Newfoundland and Labrador Nova Scotia Ontario Prince Edward Island Québec Saskatchewan,
 BHCO,Brown-headed Cowbird,Molothrus ater,,
 BROC,Bronzed Cowbird,Molothrus aeneus,,
 SHCO,Shiny Cowbird,Molothrus bonariensis,,
@@ -665,8 +686,10 @@ RWBL,Red-winged Blackbird,Agelaius phoeniceus,,
 TRBL,Tricolored Blackbird,Agelaius tricolor,,
 TSBL,Tawny-shouldered Blackbird,Agelaius humeralis,,
 YSBL,Yellow-shouldered Blackbird,Agelaius xanthomus,Y,
-EAME,Eastern Meadowlark,Sturnella magna,Y,
+EAME,Eastern Meadowlark,Sturnella magna,New Brunswick Nova Scotia Ontario Québec,
 WEME,Western Meadowlark,Sturnella neglecta,,
+EWME,Eastern/Western Meadowlark,,,
+CHME,Chihuahuan Meadowlark,Sturnella lilianae,,"From Meadowlark Split, AOS 63rd Supplement (2022)"
 AUOR,Audubon's Oriole,Icterus graduacauda,,
 ALOR,Altamira Oriole,Icterus gularis,,
 SPOO,Spot-breasted Oriole,Icterus pectoralis,,
@@ -699,7 +722,7 @@ CORO,Common Rosefinch,Carpodacus erythrinus,,
 PUFI,Purple Finch,Haemorhous purpureus,,
 CAFI,Cassin's Finch,Haemorhous cassinii,,
 HOFI,House Finch,Haemorhous mexicanus,,
-RECR,Red Crossbill,Loxia curvirostra,Newfoundland and Labrador,
+RECR,Red Crossbill,Loxia curvirostra,Newfoundland and Labrador Québec,
 CACR,Cassia Crossbill,Loxia sinesciuris,,
 WWCR,White-winged Crossbill,Loxia leucoptera,,
 GCRF,Gray-crowned Rosy-Finch,Leucosticte tephrocotis,,
@@ -708,7 +731,7 @@ BCRF,Brown-capped Rosy-Finch,Leucosticte australis,,
 EUGO,European Goldfinch,Carduelis carduelis,,
 ORGR,Oriental Greenfinch,Chloris sinica,,
 HORE,Hoary Redpoll,Acanthis hornemanni,,
-UNRE,Unidentified Common/Hoary Redpoll,,,Unspecified Acanthis flammea or A. hornemanni. Explain in Remarks why the unspecified code was chosen. | Acanthis flammea ou A. hornemanni non spécifié. Expliquez dans les Remarques pourquoi le code non identifié a été choisi.
+REDP,Redpoll,,,"From Hoary/Common Redpoll lump, AOS 65th Supplement (2024)"
 CORE,Common Redpoll,Acanthis flammea,,
 AMGO,American Goldfinch,Spinus tristis,,
 LEGO,Lesser Goldfinch,Spinus psaltria,,
@@ -726,8 +749,8 @@ PALB,Pallas's Bunting,Emberiza pallasi,,
 REBU,Reed Bunting,Emberiza schoeniclus,,
 LALO,Lapland Longspur,Calcarius lapponicus,,
 SMLO,Smith's Longspur,Calcarius pictus,,
-CCLO,Chestnut-collared Longspur,Calcarius ornatus,Y,
-MCLO,McCown's Longspur,Rhynchophanes mccownii,Y,
+CCLO,Chestnut-collared Longspur,Calcarius ornatus,Alberta Manitoba Saskatchewan,
+TBLO,Thick-billed Longspur,Rhynchophanes mccownii,Alberta Saskatchewan,
 VESP,Vesper Sparrow,Pooecetes gramineus,British Columbia,
 IPSP,Ipswich Sparrow,Passerculus sandwichensis princeps,,
 SAVS,Savannah Sparrow,Passerculus sandwichensis,,
@@ -736,17 +759,17 @@ LBSP,Large-billed Sparrow,Passerculus sandwichensis rostratus,,
 BAIS,Baird's Sparrow,Centronyx bairdii,,
 GRSP,Grasshopper Sparrow,Ammodramus savannarum,,Includes all subspecies except A. s. floridanus. | Comprend toutes les sous-espèces autres que A. s. floridanus.
 FGSP,Florida Grasshopper Sparrow,Ammodramus savannarum floridanus,Y,
-HESP,Henslow's Sparrow,Ammodramus henslowii,Ontario,
-LCSP,LeConte's Sparrow,Ammodramus leconteii,,
-SALS,Saltmarsh Sparrow,Ammodramus caudacuta,,
+HESP,Henslow's Sparrow,Centronyx henslowii,Ontario Québec,
+LCSP,LeConte's Sparrow,Ammospiza leconteii,,
+SALS,Saltmarsh Sparrow,Ammospiza caudacuta,,
 NESP,Nelson's Sparrow,Ammospiza nelsoni,,
-STSP,Unidentified Sharp-tailed Sparrow,,,Unspecified Ammodramus caudacutus or A. nelsoni. Explain in Remarks why the unspecified code was chosen. | Ammodramus caudacutus ou A. nelsoni non spécifié. Expliquez dans les Remarques pourquoi le code non identifié a été choisi.
-SESP,Seaside Sparrow,Ammodramus maritima,,
+USTP,Unidentified Sharp-tailed Sparrow,,,Unspecified Ammodramus caudacutus or A. nelsoni. Explain in Remarks why the unspecified code was chosen. | Ammodramus caudacutus ou A. nelsoni non spécifié. Expliquez dans les Remarques pourquoi le code non identifié a été choisi.
+SESP,Seaside Sparrow,Ammospiza maritima,,
 DSSP,Dusky Seaside Sparrow,Ammodramus maritima nigrescens,,
 CSSS,Cape Sable Seaside Sparrow,Ammodramus maritimus mirabilis,Y,
 LASP,Lark Sparrow,Chondestes grammacus,,
 HASP,Harris's Sparrow,Zonotrichia querula,,
-WCSP,White-crowned Sparrow,Zonotrichia leucophrys,,
+UWCS,Unspecified White-crowned Sparrow,Zonotrichia leucophrys,,
 EWCS,Eastern White-crowned Sparrow,Zonotrichia leucophrys leucophrys,,
 MWCS,Mountain White-crowned Sparrow,Zonotrichia leucophrys oriantha,,
 PSWS,Puget Sound White-crowned Sparrow,Zonotrichia leucophrys pugetensis,,
@@ -766,13 +789,14 @@ BCSP,Black-chinned Sparrow,Spizella atrogularis,,
 WWJU,White-winged Junco,Junco hyemalis aikeni,,
 SCJU,Slate-colored Junco,Junco hyemalis hyemalis,,
 ORJU,Oregon Junco,Junco hyemalis oreganus,,
-UDEJ,Unidentified Dark-eyed Junco,Junco hyemalis,,To be used for Dark-eyed Juncos whose subspecies cannot be determined. | À utiliser pour les Juncos ardoisés dont la sous-espèce ne peut être déterminée.
+PSJU,Pink-sided Junco,Junco hyemalis mearnsi,,
+UDEJ,Unspecified Dark-eyed Junco,Junco hyemalis,,To be used for Dark-eyed Juncos whose subspecies cannot be determined. | À utiliser pour les Juncos ardoisés dont la sous-espèce ne peut être déterminée.
 GHJU,Gray-headed Junco,Junco hyemalis caniceps,,
 YEJU,Yellow-eyed Junco,Junco phaeonotus,,
 BTSP,Black-throated Sparrow,Amphispiza bilineata,,
-USSP,Unspecified Sage Sparrow,,,Unspecified Artemisiospiza belli or A. nevadensis (not A. b. clementeae). Explain in Remarks why the unspecified code was chosen. | Artemisiospiza belli ou A. nevadensis (pas A. b. clementeae) non spécifié. Expliquez dans les Remarques pourquoi le code non identifié a été choisi.
+USSP,Unidentified Sage Sparrow,,,Unspecified Artemisiospiza belli or A. nevadensis (not A. b. clementeae). Explain in Remarks why the unspecified code was chosen. | Artemisiospiza belli ou A. nevadensis (pas A. b. clementeae) non spécifié. Expliquez dans les Remarques pourquoi le code non identifié a été choisi.
 SCBS,San Clemente Bell's Sparrow,Artemisiospiza belli belli,Y,
-FSSP,Five-striped Sparrow,Amphispiza quinquestriata,,
+FSSP,Five-striped Sparrow,Amphispizopsis quinquestriata,,
 SBSP,Sagebrush Sparrow,Artemisiospiza nevadensis,,AOU split from 5740 Sage Sparrow in 2014. | AOU l’a séparé de 5740 en 2014.
 BESP,Bell's Sparrow,Artemisiospiza belli,,AOU split from 5740 Sage Sparrow in 2014. | AOU l’a séparé de 5740 en 2014.
 BACS,Bachman's Sparrow,Peucaea aestivalis,,
@@ -809,15 +833,17 @@ ILBH,Indigo X Lazuli Bunting Hybrid,,,Passerina cyanea X P. amoena. | Passerina 
 LAZB,Lazuli Bunting,Passerina amoena,,
 VABU,Varied Bunting,Passerina versicolor,,
 PABU,Painted Bunting,Passerina ciris,,
-WCSE,White-collared Seedeater,Sporophila torqueola,,
+UWSE,Unidentified White-collared Seedeater,,,
 PUEB,Puerto Rican Bullfinch,Melopyrrha portoricensis,,
 LESB,Lesser Antillean Bullfinch,Loxigilla noctis,,
+MOSE,Morelet's Seedeater,Sporophila morelleti,,"From split of White-collared Seedeater, AOS 59th Supplement (2019)"
+CRSE,Cinnamon-rumped Seedeater,Sporophila torqueola,,"From split of White-collared Seedeater, AOS 59th Supplement (2019)"
 BFGR,Black-faced Grassquit,Melanospiza bicolor,,
 CUGR,Cuban Grassquit,Phonipara canora,,
 YFGR,Yellow-faced Grassquit,Tiaris olivaceus,,
 DICK,Dickcissel,Spiza americana,,
-LARB,Lark Bunting,Calamospiza melanocorys,Y,
-ANEU,Antillean Euphonia,Euphonia musica,,
+LARB,Lark Bunting,Calamospiza melanocorys,Alberta Manitoba Saskatchewan,
+ANEU,Antillean Euphonia,Chlorophonia musica,,
 WETA,Western Tanager,Piranga ludoviciana,,
 FCTA,Flame-colored Tanager,Piranga bidentata,,
 SCTA,Scarlet Tanager,Piranga olivacea,,
@@ -833,21 +859,21 @@ GBMA,Gray-breasted Martin,Progne chalybea,,
 CAMA,Caribbean Martin,Progne dominicensis,,
 CLSW,Cliff Swallow,Petrochelidon pyrrhonota,,
 CASW,Cave Swallow,Petrochelidon fulva,,
-BARS,Barn Swallow,Hirundo rustica,Y,
+BARS,Barn Swallow,Hirundo rustica,Alberta British Columbia Manitoba New Brunswick Newfoundland and Labrador Nova Scotia Ontario Prince Edward Island Québec Saskatchewan Yukon Territory Northwest Territories,
 TRES,Tree Swallow,Tachycineta bicolor,,
 VGSW,Violet-green Swallow,Tachycineta thalassina,,
 BAHS,Bahama Swallow,Tachycineta cyaneoviridis,,
-BANS,Bank Swallow,Riparia riparia,Y,
+BANS,Bank Swallow,Riparia riparia,Alberta British Columbia Manitoba New Brunswick Newfoundland and Labrador Nova Scotia Ontario Prince Edward Island Québec Saskatchewan Yukon Territory Northwest Territories,
 NRWS,Northern Rough-winged Swallow,Stelgidopteryx serripennis,,
 BOWA,Bohemian Waxwing,Bombycilla garrulus,,
 CEDW,Cedar Waxwing,Bombycilla cedrorum,,
 PHAI,Phainopepla,Phainopepla nitens,,
 NSHR,Northern Shrike,Lanius borealis,,
 BRSH,Brown Shrike,Lanius cristatus,,
-LOSH,Loggerhead Shrike,Lanius ludovicianus,AlbertaManitobaOntarioQuébecSaskatchewan,
+LOSH,Loggerhead Shrike,Lanius ludovicianus,Alberta Manitoba Ontario Québec Saskatchewan,
 KAOO,Kauai Oo,Moho braccatus,Y,
 BIOO,Bishop's Oo,Moho bishopi,Y,
-JAWE,Japanese White-eye,Zosterops japonicus,,
+WAWE,Warbling White-eye,Zosterops japonicus,,
 SLSH,San Clemente Loggerhead Shrike,Lanius ludovicianus mearnsi,Y,
 BWVI,Black-whiskered Vireo,Vireo altiloquus,,
 REVI,Red-eyed Vireo,Vireo olivaceus,,
@@ -871,12 +897,13 @@ BAWW,Black-and-white Warbler,Mniotilta varia,,
 HYWA,Hybrid Warbler,,,"Report suspected parentage as a remark (e.g. Species1 x Species2). | Signalez les liens de parenté suspects dans le champs remarque (p. ex., Espèce1 x Espèce2)."
 PROW,Prothonotary Warbler,Protonotaria citrea,Ontario,
 SWWA,Swainson's Warbler,Limnothlypis swainsonii,,
+CCWA,Crescent-chested Warbler,Oreothlypis superciliosa,,
 WEWA,Worm-eating Warbler,Helmitheros vermivorum,,
 BWWA,Blue-winged Warbler,Vermivora cyanoptera,,
 BRWA,Brewster's Warbler,,,
 LAWA,Lawrence's Warbler,,,
 GBWH,Golden-winged x Blue-winged Warbler Hybrid,,,Vermivora chrysoptera X V. cyanoptera. Use for hybrids that do not fit Lawrences or Brewsters. | Vermivora chrysoptera X V. cyanoptera. À utiliser pour les hybrides qui ne correspondent pas aux Parulines de Lawrence ou de Brewster.
-GWWA,Golden-winged Warbler,Vermivora chrysoptera,ManitobaOntarioQuébec,
+GWWA,Golden-winged Warbler,Vermivora chrysoptera,Manitoba Ontario Québec,
 LUWA,Lucy's Warbler,Leiothlypis luciae,,
 VIWA,Virginia's Warbler,Leiothlypis virginiae,,
 NAWA,Nashville Warbler,Leiothlypis ruficapilla,,
@@ -890,17 +917,17 @@ OLWA,Olive Warbler,Peucedramus taeniatus,,
 YEWA,Yellow Warbler,Setophaga petechia,,
 BTBW,Black-throated Blue Warbler,Setophaga caerulescens,,
 MYWA,Myrtle Warbler,Setophaga coronata coronata,,
-UYRW,Unknown Yellow-rumped Warbler,Setophaga coronata,,Undifferentiated Myrtle / Audubon's Warbler. Use only if uncertain. | Setophaga coronata coronate ou Setophaga auduboni auduboni. À n'utiliser qu'en cas d'incertitude.
-AUWA,Audubon's Warbler,Setophaga auduboni auduboni,,
+UYRW,Unspecified Yellow-rumped Warbler,Setophaga coronata,,Undifferentiated Myrtle / Audubon's Warbler. Use only if uncertain. | Setophaga coronata coronate ou Setophaga auduboni auduboni. À n'utiliser qu'en cas d'incertitude.
+AUWA,Audubon's Warbler,Setophaga coronata auduboni,,
 MAWA,Magnolia Warbler,Setophaga magnolia,,
-CERW,Cerulean Warbler,Setophaga cerulea,Y,
+CERW,Cerulean Warbler,Setophaga cerulea,Ontario Québec,
 EWWA,Elfin-woods Warbler,Setophaga angelae,,
 CSWA,Chestnut-sided Warbler,Setophaga pensylvanica,,
 BBWA,Bay-breasted Warbler,Setophaga castanea,,
 BLPW,Blackpoll Warbler,Setophaga striata,,
 BLBW,Blackburnian Warbler,Setophaga fusca,,
 YTWA,Yellow-throated Warbler,Setophaga dominica,,
-SUWA,Sutton's Warbler,,,
+SUWA,Sutton's Warbler,,,Setophaga americana x S. dominica hybrid
 GRWA,Grace's Warbler,Setophaga graciae,,
 ADWA,Adelaide's Warbler,Setophaga adelaidae,,
 BARW,Barbuda Warbler,Setophaga subita,,
@@ -914,21 +941,22 @@ HEWA,Hermit Warbler,Setophaga occidentalis,,
 KIWA,Kirtland's Warbler,Setophaga kirtlandii,,
 PIWA,Pine Warbler,Setophaga pinus,,
 WPWA,Western Palm Warbler,Setophaga palmarum palmarum,,
+UPWA,Unspecified Palm Warbler,Setophaga palmarum,,Undifferentiated Western / Yellow Palm Warbler
 YPWA,Yellow Palm Warbler,Setophaga palmarum hypochrysea,,
 PRAW,Prairie Warbler,Setophaga discolor,,
 OVEN,Ovenbird,Seiurus aurocapilla,,
 NOWA,Northern Waterthrush,Parkesia noveboracensis,,
-LOWA,Louisiana Waterthrush,Parkesia motacilla,Y,
+LOWA,Louisiana Waterthrush,Parkesia motacilla,Ontario Québec,
 KEWA,Kentucky Warbler,Geothlypis formosa,,
 CONW,Connecticut Warbler,Oporornis agilis,,
 MOWA,Mourning Warbler,Geothlypis philadelphia,,
 MGWA,MacGillivray's Warbler,Geothlypis tolmiei,,
 COYE,Common Yellowthroat,Geothlypis trichas,,
 GCYE,Gray-crowned Yellowthroat,Geothlypis poliocephala,,
-YBCH,Yellow-breasted Chat,Icteria virens,British Columbia,Some may require size 2. | Certains peuvent nécessiter une taille 2.
+YBCH,Yellow-breasted Chat,Icteria virens,British Columbia Ontario,Some may require size 2. | Certains peuvent nécessiter une taille 2.
 HOWA,Hooded Warbler,Setophaga citrina,,
 WIWA,Wilson's Warbler,Cardellina pusilla,,
-CAWA,Canada Warbler,Cardellina canadensis,AlbertaBritish ColumbiaManitobaNew BrunswickNova ScotiaOntarioPrince Edward IslandQuébecSaskatchewanYukon TerritoryNorthwest Territories,
+CAWA,Canada Warbler,Cardellina canadensis,Alberta British Columbia Manitoba New Brunswick Nova Scotia Ontario Prince Edward Island Québec Saskatchewan Yukon Territory Northwest Territories,
 AMRE,American Redstart,Setophaga ruticilla,,
 PARE,Painted Redstart,Myioborus pictus,,
 FTWA,Fan-tailed Warbler,Basileuterus lachrymosus,,
@@ -946,9 +974,9 @@ AMPI,American Pipit,Anthus rubescens,,
 PEPI,Pechora Pipit,Anthus gustavi,,
 OBPI,Olive-backed Pipit,Anthus hodgsoni,,
 RTPI,Red-throated Pipit,Anthus cervinus,,
-SPPI,Sprague's Pipit,Anthus spragueii,AlbertaManitobaSaskatchewan,
+SPPI,Sprague's Pipit,Anthus spragueii,Alberta Manitoba Saskatchewan,
 AMDI,American Dipper,Cinclus mexicanus,,
-SATH,Sage Thrasher,Oreoscoptes montanus,AlbertaBritish ColumbiaSaskatchewan,
+SATH,Sage Thrasher,Oreoscoptes montanus,Alberta British Columbia Saskatchewan,
 NOMO,Northern Mockingbird,Mimus polyglottos,,
 BAMO,Bahama Mockingbird,Mimus gundlachii,,
 TRMO,Tropical Mockingbird,Mimus gilvus,,
@@ -963,14 +991,17 @@ PETH,Pearly-eyed Thrasher,Margarops fuscatus,,
 CRTH,Crissal Thrasher,Toxostoma crissale,,
 BLMO,Blue Mockingbird,Melanotis caerulescens,,
 CACW,Cactus Wren,Campylorhynchus brunneicapillus,,
+SIWR,Sinaloa Wren,Thryophilus sinaloa,,
 ROWR,Rock Wren,Salpinctes obsoletus,,
 CANW,Canyon Wren,Catherpes mexicanus,,
 CARW,Carolina Wren,Thryothorus ludovicianus,,
 BEWR,Bewick's Wren,Thryomanes bewickii,,
-HOWR,House Wren,Troglodytes aedon,,
+UHWR,Unidentified House Wren,,,
+NHWR,Northern House Wren,Troglodytes aedon,,
 WIWR,Winter Wren,Troglodytes hiemalis,,
 PAWR,Pacific Wren,Troglodytes pacificus,,
-SEWR,Sedge Wren,Cistothorus platensis,,
+PWWR,Pacific/Winter Wren,,,Troglodytes pacificus and T. hiemalis prior to split in 2010
+SEWR,Sedge Wren,Cistothorus stellaris,,
 MAWR,Marsh Wren,Cistothorus palustris,,
 BRCR,Brown Creeper,Certhia americana,,
 RWBU,Red-whiskered Bulbul,Pycnonotus jocosus,,
@@ -988,6 +1019,7 @@ BRTI,Bridled Titmouse,Baeolophus wollweberi,,
 VATI,Varied Tit,Sittiparus varius,,
 BCCH,Black-capped Chickadee,Poecile atricapillus,,
 HYCH,Hybrid Chickadee,,,"Report suspected parentage as a remark (e.g. Species1 x Species2). | Signalez les liens de parenté suspects dans le champs remarque (p. ex., Espèce1 x Espèce2)."
+UNCH,Unidentified Chickadee,,,
 CACH,Carolina Chickadee,Poecile carolinensis,,
 MECH,Mexican Chickadee,Poecile sclateri,,
 MOCH,Mountain Chickadee,Poecile gambeli,,
@@ -1001,15 +1033,16 @@ GNLA,Greater Necklaced Laughingthrush,Garrulax pectoralis,,
 OBNT,Orange-billed Nightingale-Thrush,Catharus aurantiirostris,,
 BUSH,Bushtit,Psaltriparus minimus,,
 VERD,Verdin,Auriparus flaviceps,,
-JABW,Japanese Bush-Warbler,Horornis diphone,,
+JABW,Japanese Bush Warbler,Horornis diphone,,
 MILL,Millerbird,Acrocephalus familiaris,Y,
 ARWA,Arctic Warbler,Phylloscopus borealis,,
 MIGW,Middendorff's Grasshopper-Warbler,Locustella ochotensis,,
 WOWA,Wood Warbler,Phylloscopus sibilatrix,,
 DUWA,Dusky Warbler,Phylloscopus fuscatus,,
 LANW,Lanceolated Warbler,Locustella lanceolata,,
+AKLW,Arctic/Kamchatka Leaf Warbler,,,Phylloscopus borealis and P. examinandus prior to split in 2014
 GCKI,Golden-crowned Kinglet,Regulus satrapa,,
-RCKI,Ruby-crowned Kinglet,Regulus calendula,,
+RCKI,Ruby-crowned Kinglet,Corthylio calendula,,
 SIAC,Siberian Accentor,Prunella montanella,,
 BGGN,Blue-gray Gnatcatcher,Polioptila caerulea,,
 BTGN,Black-tailed Gnatcatcher,Polioptila melanura,,
@@ -1021,10 +1054,10 @@ OMAO,Omao,Myadestes obscurus,,
 PUAI,Puaiohi,Myadestes palmeri,Y,
 KAMA,Kamao,Myadestes myadestinus,Y,
 OLOM,Olomao,Myadestes lanaiensis,Y,
-WOTH,Wood Thrush,Hylocichla mustelina,Y,
+WOTH,Wood Thrush,Hylocichla mustelina,New Brunswick Nova Scotia Ontario Québec,
 VEER,Veery,Catharus fuscescens,,
 GCTH,Gray-cheeked Thrush,Catharus minimus,,
-BITH,Bicknell's Thrush,Catharus bicknelli,Y,
+BITH,Bicknell's Thrush,Catharus bicknelli,New Brunswick Nova Scotia Québec,
 GCBT,Unidentified Gray-cheeked/Bicknell's Thrush,,,
 SWTH,Swainson's Thrush,Catharus ustulatus,,
 HETH,Hermit Thrush,Catharus guttatus,,
@@ -1032,7 +1065,7 @@ REDW,Redwing,Turdus iliacus,,
 AMRO,American Robin,Turdus migratorius,,
 FIEL,Fieldfare,Turdus pilaris,,
 EYTH,Eyebrowed Thrush,Turdus obscurus,,
-DUTH,Dusky Thrush,Turdus naumanni,,
+DUTH,Dusky Thrush,Turdus eunomus,,
 CCTH,Clay-colored Thrush,Turdus grayi,,
 RBRO,Rufous-backed Robin,Turdus rufopalliatus,,
 RLTH,Red-legged Thrush,Turdus plumbeus,,
@@ -1088,7 +1121,7 @@ AFSI,African Silverbill,Euodice cantans,,
 BRMA,Bronze Mannikin,Spermestes cucullata,,
 SBMU,Scaly-breasted Munia,Lonchura punctulata,,
 TRMU,Tricolored Munia,Lonchura malacca,,
-JAVS,Java Sparrow,Lonchura oryzivora,,
+JAVS,Java Sparrow,Padda oryzivora,,
 PTWH,Pin-tailed Whydah,Vidua macroura,,
 KIPE,King Penguin,Aptenodytes patagonicus,,
 EMPE,Emperor Penguin,Aptenodytes forsteri,,
@@ -1109,7 +1142,7 @@ BUAL,Buller's Albatross,Thalassarche bulleri,,
 GHAL,Gray-headed Albatross,Thalassarche chrysostoma,,
 SOAL,Sooty Albatross,Phoebetria fusca,,
 LMSA,Light-mantled Albatross,Phoebetria palpebrata,,
-SGPE,Southern Giant Petrel,Macronectes giganteus,,
+SGPE,Southern Giant-Petrel,Macronectes giganteus,,
 SOFU,Southern Fulmar,Fulmarus glacialoides,,
 BLPE,Blue Petrel,Halobaena caerulea,,
 BBPR,Broad-billed Prion,Pachyptila vittata,,
@@ -1124,11 +1157,11 @@ GBSP,Gray-backed Storm-Petrel,Garrodia nereis,,
 BECO,Blue-eyed Cormorant,Leucocarbo atriceps,,
 SNSH,Snowy Sheathbill,Chionis albus,,
 LESH,Lesser Sheathbill,Chionis minor,,
-SBBG,Southern Black-backed Gull,Larus dominicanus,,
+KEGU,Kelp Gull,Larus dominicanus,,
 ANTE,Antarctic Tern,Sterna vittata,,
 KETE,Kerguelen Tern,Sterna virgata,,
 HYSK,Hybrid Skua,,,"Report suspected parentage as a remark (e.g. Species1 x Species2). | Signalez les liens de parenté suspects dans le champs remarque (p. ex., Espèce1 x Espèce2)."
-NGPE,Northern Giant Petrel,Macronectes halli,,
+NGPE,Northern Giant-Petrel,Macronectes halli,,
 BRSK,Brown Skua,Stercorarius antarcticus,,
 TIMO,Tinian Monarch,Monarcha takatsukasae,,
 MARC,Mariana Crow,Corvus kubaryi,Y,
@@ -1141,11 +1174,11 @@ COLK,Collared Kingfisher,Todiramphus chloris,,
 SAST,Samoan Starling,Aplonis atrifusca,,
 POST,Polynesian Starling,Aplonis tabuensis,,
 CAHO,Cardinal Honeyeater,Myzomela cardinalis,,
-WAHO,Wattled Honeyeater,Foulehaio carunculatus,,
-MIHO,Micronesian Honeyeater,Myzomela rubratra,,
-RUFA,Rufous Fantail,Rhipidura rufifrons,,
+EWHO,Eastern Wattled Honeyeater,Foulehaio carunculatus,,
+MIMY,Micronesian Myzomela,Myzomela rubratra,,
+MIRF,Micronesian Rufous Fantail,Rhipidura versicolor,,
 FISH,Fiji Shrikebill,Clytorhynchus vitiensis,,
-BRWE,Bridled White-eye,Zosterops conspicillatus,Y,
+BRWE,Bridled White-eye,Zosterops conspicillatus,,
 GOWE,Golden White-eye,Cleptornis marchei,,
 MIST,Micronesian Starling,Aplonis opaca,,
 BLDR,Black Drongo,Dicrurus macrocercus,,
@@ -1153,19 +1186,19 @@ LTCU,Long-tailed Cuckoo,Eudynamys taitensis,,
 MCFD,Many-colored Fruit Dove,Ptilinopus perousii,,
 PAPI,Pacific Pigeon,Ducula pacifica,,
 SHGD,Shy Ground Dove,Alopecoenas stairi,Y,
-MICK,Micronesian Kingfisher,Todiramphus cinnamominus,Y,Includes subspecies not T. c. cinnamominus. | Comprend les sous-espèces autres que T. c. cinnamominus.
-GMKI,Guam Micronesian Kingfisher,Todiramphus cinnamominus cinnamominus,Y,Endangered subspecies on Guam. | Sous-espèce menacée à Guam.
-MGSW,Mariana Gray Swiftlet,Aerodramus vanikorensis bartschi,Y,
+POKI,Pohnpei Kingfisher,Todiramphus reichenbachii,Y,
+GUKI,Guam Kingfisher,Todiramphus cinnamominus,Y,
+MASW,Mariana Swiftlet,Aerodramus bartschi,Y,
 ROWE,Rota White-eye,Zosterops rotensis,Y,
-ANMA,Antillean Mango,Anthracothorax dominicus,,
-STTL,Streamertail,Trochilus polytmus,,
+PRMA,Puerto Rican Mango,Anthracothorax aurulentus,,
+STTL,Streamertail,Trochilus polytmus,,Includes both Trochilus polytmus (Red-billed) and Trochilus scitulus (Black-billed Streamertail)
 JATO,Jamaican Tody,Todus todus,,
 SAFL,Sad Flycatcher,Myiarchus barbirostris,,
 YBEL,Yellow-bellied Elaenia,Elaenia flavogaster,,
 GAEL,Greater Antillean Elaenia,Elaenia fallax,,
 JAEL,Jamaican Elaenia,Myiopagis cotta,,
 JACR,Jamaican Crow,Corvus jamaicensis,,
-SHWR,Southern House Wren,Troglodytes aedon musculus,,
+SHWR,Southern House Wren,Troglodytes musculus,,
 BRTR,Brown Trembler,Cinclocerthia ruficauda,,
 WETH,White-eyed Thrush,Turdus jamaicensis,,
 WCTH,White-chinned Thrush,Turdus aurantius,,

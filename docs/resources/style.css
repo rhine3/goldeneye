@@ -18,6 +18,8 @@ td, th {
   padding: 0.5em;
   border: 0px;
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 .hidden {
   display: none;
